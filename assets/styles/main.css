@@ -1,0 +1,67 @@
+/* Fonts */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Poppins", sans-serif;
+  }
+  
+  /* Colors */
+  :root {
+    --color-default: #121111;
+    --color-primary: #008374;
+    --color-secondary: #f85a40;
+  }
+  
+  /* Smooth scroll behavior */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+  body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+  }
+
+  .sections {
+    margin-bottom: 3rem;
+  }
+
+  .nav-link {
+    color: var(--color-default);
+    font-size: 1.5 em;
+    font-weight: 900;
+  }
+
+  .card-title {
+    color: var(--color-default);
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+
+  /* Page title banner  */
+.page__title-overlay {
+    position: relative;
+}
+.page__title_bg {
+  background-image: url(https://www.vajiraoiasacademy.com/assets/img/page-title/page-title.jpg);
+}
+
+.page__title-height {
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+  
