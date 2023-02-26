@@ -26,13 +26,22 @@
   }
 
   .sections {
-    margin-bottom: 3rem;
+    margin-bottom: 3 em;
   }
 
+
   .nav-link {
-    color: var(--color-default);
-    font-size: 1.5 em;
+    color: var(--color-primary);
     font-weight: 900;
+  }
+
+  .nav-link:hover{
+    color: var(--color-default);
+    font-size: 1.5em;
+    font-weight: 900;
+    border-bottom: 2px solid tomato;
+    border-top: 2px solid tomato;
+    padding: 5px;
   }
 
   .card-title {
@@ -63,5 +72,10 @@
 
 .d-flex {
   display: flex!important;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
   
